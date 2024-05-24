@@ -11,7 +11,7 @@
   "hassio_api": true,
   "hassio_role": "manager",
   "homeassistant_api": true,
-  "map": ["config:rw", "ssl:rw", "addons:rw", "share:rw", "backup:rw"],
+  "map": ["config:rw", "ssl:rw", "addons:rw", "all_addon_configs:rw", "share:rw", "backup:rw"],
   "services": ["mysql:want", "mqtt:want"],
   "ports": {
     "22/tcp": 2222
